@@ -280,7 +280,3 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so
 endif
 
-ifneq ($(SHOLEST_BUILD_USB_APK),true)
-PRODUCT_COPY_FILES += \
-    vendor/motorola/sholest/proprietary/app/Usb.apk:/system/app/Usb.apk
-endif
