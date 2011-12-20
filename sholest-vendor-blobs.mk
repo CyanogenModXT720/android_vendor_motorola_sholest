@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/sholest/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/motorola/sholest/proprietary/lib/libril-moto-umts-1.so:obj/lib/libril-moto-umts-1.so \
     vendor/motorola/sholest/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so \
-    vendor/motorola/sholest/proprietary/lib/hw/lights.sholes.so:obj/lib/hw/lights.sholes.so \
     vendor/motorola/sholest/proprietary/lib/hw/sensors.sholes.so:obj/lib/hw/sensors.sholes.so
 
 # copy all files under the "proprietary" directory to system
